@@ -1,0 +1,316 @@
+/* hola mundo */
+
+body{
+	background-color: #f8f5ef;
+	background-image: url(../i/fondo.png);
+	margin: 0;
+	padding: 0;
+}
+
+#cornelio{
+	padding: 0;
+	background: url(../i/corner-left.png) no-repeat left top;
+	width: 100%;
+}
+
+
+.clear{
+	clear: both;
+}
+
+a:link{
+	text-decoration: none;
+	color: #3759A6;
+	text-shadow: #fff 1px 1px 0;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #3759A6;
+	text-shadow: #fff 1px 1px 
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #3759A6;
+}
+
+#contain{
+	width:960px;
+	margin: 0 0 0 40px;
+	color: #4b504c;
+}
+
+#head{
+	padding-top: 82px;
+}
+#cuerpo p.divider{
+	margin-top: 30px;
+}
+
+
+
+#head h1{
+	width: 225px;
+	height: 94px;
+	text-indent: -9000px;
+	background: url(../i/nullun-logo.png) no-repeat 0 0;
+	position: absolute;
+	top: 4px;
+	left: 620px;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	margin: 0;
+	opacity: 0.85;
+}
+
+#menu{
+	font-family: "Lucida Grande";
+}
+
+
+#menu ul{
+	margin: 0 0 40px;
+	padding: 0;
+	list-style-type: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#menu li{
+	display: inline;
+	margin-right: 24px;
+}
+
+#menu li a:link{
+	color: #3759A6;
+}
+
+#menu li a:visited{
+	
+}
+
+#menu li a:hover{
+	
+}
+
+
+.style3 {font: 18px/27px 'FolksBold', Arial, sans-serif;}
+
+
+
+#cuerpo #head h2, #cuerpo #head h3, #cuerpo h4, #cuerpo h5, #footer h4, #footer h5{
+	font-family: 'FolksRegular', Arial, sans-serif;
+	text-shadow: #fff 1px 1px 0;
+	color: #433e30;
+}
+
+#cuerpo #head h2{
+	font-size: 56px;
+	margin: 0 0 8px;
+}
+
+
+#cuerpo #head h3{
+	margin: 0 0 24px;
+}
+
+#cuerpo h4{
+	font-size: 28px;
+	margin: 0 0 14px;
+}
+
+#cuerpo h5{
+	font-size: 18px;
+	margin: 2px 0 16px;
+}
+
+
+
+#cuerpo p{
+	margin: 0 130px 16px 0;
+	font: 14px/24px "Lucida Grande";
+}
+
+#cuerpo p.intro{
+	margin-bottom: 25px;
+}
+
+#cuerpo p.ding{
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+#cuerpo p.ding-mid{
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 2px;
+}
+
+#cuerpo ul{
+	font-family: "Lucida Grande";
+	list-style-type: none;
+	padding: 0;
+}
+
+#cuerpo li{
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+
+#cuerpo ul li ul{
+font-size: 12px;
+margin: 20px 0 0 0;
+padding: 0;
+}
+
+#cuerpo ul li ul li{
+	float: left;
+	margin-right: 64px;
+}
+
+#cuerpo ul li ul li img{
+	display: block;
+}
+
+
+
+#cuerpo .sevencol{
+	width: 430px;
+	float: left;
+	background: url(../i/line-vertical.png) no-repeat;
+	margin: 0;
+	padding-left: 52px;
+}
+
+
+#cuerpo .sixcol{
+	width:460px;
+	float: left;
+}
+
+#cuerpo .fourcol{
+	width:300px;
+	float: left;
+	margin-right: 10px;
+	padding-bottom: 8px;
+}
+
+#cuerpo .sevencol p{
+	margin: 0 100px 16px 0;
+}
+
+
+#cuerpo .sevencol ul, #cuerpo .fourcol ul{
+	font-size: 14px;
+}
+
+
+#cuerpo .sevencol li{
+	background: url(../i/rombo.png) no-repeat 0 8px;
+	padding-left: 15px;
+	margin-right: 100px;
+}
+
+#cuerpo .fivecol{
+	width: 390px;
+	float: left;
+	margin-right: 16px;
+}
+
+
+
+.team ul{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.team li{
+	float: left;
+	margin-right: 16px;
+}
+
+
+.team li{
+	
+}
+
+
+.team img{
+	display: block;
+}
+
+
+#cuerpo .showcase-text{
+	margin-left: 32px;
+}
+
+#cuerpo .showcase-text h3{
+	margin: 0 0 8px 0;
+	font-family: "Andale Mono";
+	text-shadow: #fff 1px 1px 0;
+}
+
+
+
+
+#cuerpo .showcase-text h4{
+	margin: 0 0 8px 0;
+	font-family: 'FolksRegular', Arial, sans-serif;
+	text-shadow: #fff 1px 1px 0;
+	font-size: 16px;
+}
+
+#cuerpo .showcase-text p{
+	margin: 0 0 24px 0;
+	padding: 0;
+}
+
+
+#cuerpo .showcase-text li a{
+	background: url(../i/arrow-b.png) no-repeat 0 3px;
+	padding-left: 24px;
+}
+
+#cuerpo .all-the-other ul{
+font-size: 14px;
+	
+}
+
+#cuerpo .all-the-other li{
+	margin-right: 8px;
+	line-height: 24px;
+	background: url(../i/dotter.png) no-repeat 0 6px;
+	padding-left: 13px;
+}
+
+#cuerpo .formulario form li{
+	background-image: none;
+	padding: 0;
+} 
+
+#cuerpo span label{
+	color: #a4a4a4;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#footer h4{
+	margin: 0 0 3px;
+	padding: 0;
+}
+
+#footer h5{
+	margin-bottom: 30px;
+	margin-top: 0;
+	color: #a4a4a4;
+}
+
+
+#footer .love-me{
+	float: right;
+	margin-right: 110px;
+}
