@@ -1,0 +1,23 @@
+/*hoy es martes 3 de marzo*/
+
+#container{
+	width: 960px;
+	margin:3px auto 0 auto;
+	font: 91% "American Typewriter", Times, Georgia, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+#head h1{
+	font-size: 48px;
+	margin: 0 0 9px 0;
+}
+
+#head h3{
+	font-size: 38px;
+	margin: 0 0 27px 0;
+}
+
+#head h2{
+	font-size: 50px;
+	margin: 0;
+}
