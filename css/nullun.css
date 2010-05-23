@@ -96,9 +96,6 @@ a:hover{
 }
 
 
-.style3 {font: 18px/27px 'FolksBold', Arial, sans-serif;}
-
-
 
 #cuerpo #head h2, #cuerpo #head h3, #cuerpo h4, #cuerpo h5, #footer h4, #footer h5{
 	font-family: 'FolksRegular', Arial, sans-serif;
@@ -313,4 +310,16 @@ font-size: 14px;
 #footer .love-me{
 	float: right;
 	margin-right: 110px;
+}
+
+
+.tooltip {
+	display:none;
+	font: 14px/24px "Lucida Grande";
+	height:142px;
+	width:211px;
+	padding:10px 5px 0 15px;
+	color:#433e30;
+	background: transparent url(../i/ventana-tooltip.png) no-repeat 0 0;
+	margin: 0;
 }
