@@ -125,38 +125,140 @@
 		<div class="fivecol team">
 			<h4>Somos:</h4>
 			<ul>
-				<li><img src="i/face-vik.png" width="112" height="110" alt="Face" title="Victor Hugo Hernandez. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"><a href="#">Victor Hernandez</a></li>
-				<li><img src="i/face-matias.png" width="112" height="110" alt="Face" title="Matias Jaramillo. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"><a href="#">Matias Jaramillo</a></li>
-				<li><img src="i/face-pacho.png" width="112" height="110" alt="Face" title="Pacho Cardenas"><a href="#">Pacho Cardenas</a></li>
-				<li><img src="i/face-rana.png" width="112" height="110" alt="Face" title="Andrea Bernal"><a href="#">Andrea Bernal</a></li>
-				<li><img src="i/face-vi.png" width="112" height="110" alt="Face" title="Viviana Mora"><a href="#">Viviana Mora</a></li>
+				<li>
+					<a id="viktooltip" href="#"><img src="i/face-vik.png" width="112" height="110" alt="Victor Hugo Herandez">Victor Hernandez</a>
+					
+						<div class="tooltipvik">
+							<p class="team-member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					
+						</div>
+					</li>
+				<li>
+					<a id="mattooltip" href="#"><img src="i/face-matias.png" width="112" height="110" alt="Matias Jaramillo">Matias Jaramillo</a>
+					
+						<div class="tooltipmat">
+							<p class="team-member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+						</div>
+					</li>
+				<li>
+					<a id="pachtooltip" href="#"><img src="i/face-pacho.png" width="112" height="110" alt="Pacho Cardenas">Pacho Cardenas</a>
+						<div class="tooltippach">
+							<p class="team-member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</li>
+				<li>
+					<a id="andrtooltip" href="#"><img src="i/face-rana.png" width="112" height="110" alt="Andrea Bernal">Andrea Bernal</a>
+						<div class="tooltipandr">
+							<p class="team-member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</li>
+				<li>
+					<a id="vivtooltip" href="#"><img src="i/face-vi.png" width="112" height="110" alt="Viviana Mora">Viviana Mora</a>
+						<div class="tooltipviv">
+							<p class="team-member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</li>
 			</ul>
 					<div class="clear"></div>
 					
-
-					
-					
-					<script type="text/javascript">
-						// select all desired input fields and attach tooltips to them
-						$(".team img").tooltip({
-
-							// place tooltip on the right edge
-							position: "top center",
-
-							// a little tweaking of the position
-							offset: [12, 90],
-
-							// use the built-in fadeIn/fadeOut effect
-							effect: "fade",
-
-							// custom opacity setting
-							opacity: 0.95
-
-						});
-					</script>
-					
 					
 		</div>
+		
+		<script type="text/javascript">
+			// select all desired input fields and attach tooltips to them
+			$("#viktooltip").tooltip({
+
+				// place tooltip on the right edge
+				position: "top center",
+
+				// a little tweaking of the position
+				offset: [32, 90],
+
+				// use the built-in fadeIn/fadeOut effect
+				effect: "fade",
+
+				// custom opacity setting
+				opacity: 0.90
+
+			});
+		</script>
+		
+		
+		<script type="text/javascript">
+			// select all desired input fields and attach tooltips to them
+			$("#mattooltip").tooltip({
+
+				// place tooltip on the right edge
+				position: "top center",
+
+				// a little tweaking of the position
+				offset: [32, 90],
+
+				// use the built-in fadeIn/fadeOut effect
+				effect: "fade",
+
+				// custom opacity setting
+				opacity: 0.90
+			});
+		</script>
+		
+		<script type="text/javascript">
+			// select all desired input fields and attach tooltips to them
+			$("#pachtooltip").tooltip({
+
+				// place tooltip on the right edge
+				position: "top center",
+
+				// a little tweaking of the position
+				offset: [32, 90],
+
+				// use the built-in fadeIn/fadeOut effect
+				effect: "fade",
+
+				// custom opacity setting
+				opacity: 0.90
+			});
+		</script>
+		
+		<script type="text/javascript">
+			// select all desired input fields and attach tooltips to them
+			$("#andrtooltip").tooltip({
+
+				// place tooltip on the right edge
+				position: "top center",
+
+				// a little tweaking of the position
+				offset: [32, 90],
+
+				// use the built-in fadeIn/fadeOut effect
+				effect: "fade",
+
+				// custom opacity setting
+				opacity: 0.90
+			});
+		</script>
+		
+		<script type="text/javascript">
+			// select all desired input fields and attach tooltips to them
+			$("#vivtooltip").tooltip({
+
+				// place tooltip on the right edge
+				position: "top center",
+
+				// a little tweaking of the position
+				offset: [32, 90],
+
+				// use the built-in fadeIn/fadeOut effect
+				effect: "fade",
+
+				// custom opacity setting
+				opacity: 0.90
+			});
+		</script>
+
+		
+		
 		
 		
 		
@@ -271,7 +373,23 @@
 </div></div>
 
 <script> 
-$(".team img[title]").tooltip();
+$("#viktooltip").tooltip();
+</script>
+
+<script> 
+$("#mattooltip").tooltip();
+</script>
+
+<script> 
+$("#pachtooltip").tooltip();
+</script>
+
+<script> 
+$("#andrtooltip").tooltip();
+</script>
+
+<script> 
+$("#vivtooltip").tooltip();
 </script>
 
 </body>

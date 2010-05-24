@@ -7,6 +7,10 @@ body{
 	padding: 0;
 }
 
+img{
+	border: 0;
+}
+
 #cornelio{
 	padding: 0;
 	background: url(../i/corner-left.png) no-repeat left top;
@@ -313,13 +317,20 @@ font-size: 14px;
 }
 
 
-.tooltip {
+.tooltipvik, .tooltipmat, .tooltippach, .tooltipandr, .tooltipviv{
 	display:none;
-	font: 14px/24px "Lucida Grande";
-	height:142px;
-	width:211px;
-	padding:10px 5px 0 15px;
-	color:#433e30;
+	height:146px;
+	width:217px;
 	background: transparent url(../i/ventana-tooltip.png) no-repeat 0 0;
 	margin: 0;
+	padding: 18px 0 2px 10px;
+}
+
+
+
+#cuerpo .team .tooltipvik p.team-member-bio, #cuerpo .team .tooltipmat p.team-member-bio, #cuerpo .team .tooltippach p.team-member-bio, #cuerpo .team .tooltipandr p.team-member-bio, #cuerpo .team .tooltipviv p.team-member-bio{
+	font: 12px/16px "Lucida Grande";
+	color:#433e30;
+	margin: 0 32px 0 0;
+	padding: 0;
 }
